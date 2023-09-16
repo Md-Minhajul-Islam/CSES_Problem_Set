@@ -6,7 +6,7 @@ int dp[1000002];
 int fn(int n)
 {
    if(n == 0) return 1;
-   if(n < 0) return 0;
+   if(n < 0) return 0; 
    if(dp[n] != -1) return dp[n];
    int ans = 0;
    for(int i = 1; i <= 6; i++)
